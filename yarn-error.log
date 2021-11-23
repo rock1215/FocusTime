@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/yansongwang/.nvm/versions/node/v16.11.1/bin/node /opt/homebrew/bin/yarn
+
+PATH: 
+  /Users/yansongwang/.nvm/versions/node/v16.11.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/opt/homebrew/bin:/Users/yansongwang/flutter/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.11.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: aborted
+      at connResetException (node:internal/errors:691:14)
+      at TLSSocket.socketCloseListener (node:_http_client:407:19)
+      at TLSSocket.emit (node:events:402:35)
+      at node:net:672:12
+      at TCP.done (node:_tls_wrap:580:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~43.0.2",
+      "expo-status-bar": "~1.1.0",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.3",
+      "react-native-web": "0.17.1",
+      "expo-constants": "~12.1.3",
+      "expo-keep-awake": "~10.0.0",
+      "@expo/vector-icons": "^12.0.0",
+      "react-native-paper": "4.9.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
